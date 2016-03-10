@@ -17,16 +17,38 @@ Objectives of Strings-1 Lesson:
 
 int main(){
 
-	//Test KthIndexFromEnd 
+	//NumbertoStr
+	/*
+	float number = -1.012;	
+	char str[10];
+	number_to_str(number, str, 2);
+	printf("%s\n", str);
+	*/
 
-	//TestNumbertoStr
-
-	//removeSpaces
+	//KthIndexFromEnd 
+	/*
+	char ch = KthIndexFromEnd("computer", 0);
+	printf("%c\n", ch);	
+	*/
 
 	//StrWordsinRev
+	/*
+	char input[14] = "coding is fun";
+	int len = 14;
+	str_words_in_rev(input, len);
+	for (int i = 0; i < len; i++) {
+		printf("%c", input[i]);
+	}
+	*/
+
+	//removeSpaces	
+	/*
+	char str[] = "co d  e";
+	removeSpaces(str);
+	*/
 
 	//commonWords
-
+	
 
 	return 0;
 }

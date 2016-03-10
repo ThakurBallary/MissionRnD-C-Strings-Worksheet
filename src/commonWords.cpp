@@ -12,9 +12,7 @@ NOTES: If there are no common words return NULL.
 */
 
 #include <stdio.h>
-
 #include <malloc.h>
-
 #define SIZE 31
 
 char ** commonWords(char *str1, char *str2) {
