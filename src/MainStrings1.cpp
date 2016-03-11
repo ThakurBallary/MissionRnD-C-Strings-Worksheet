@@ -33,8 +33,8 @@ int main(){
 
 	//StrWordsinRev
 	/*
-	char input[14] = "coding is fun";
-	int len = 14;
+	char input[100] = "missionrnd is great";
+	int len = 19;
 	str_words_in_rev(input, len);
 	for (int i = 0; i < len; i++) {
 		printf("%c", input[i]);
@@ -48,6 +48,12 @@ int main(){
 	*/
 
 	//commonWords
+	char *str1 = "";
+	char *str2 = "";
+	char **res = commonWords(str1, str2);
+	for (int i = 0; res[i] != NULL; i++) {
+		printf("%s\n", res[i]);
+	}
 	
 
 	return 0;
